@@ -55,7 +55,7 @@ def writeGUIFile(guiElementPositions):
     outString += "#include <map>;\n#include <array>;\n#include <string>;\n\n"
 
     #comments
-    outString += "//  VAR_NAME should be useable everywhere (keep your naming consistent)"
+    outString += "//  VAR_NAME should be useable everywhere (keep your naming consistent)\n"
     outString += "// {VAR_NAME: [x_position, y_position, width, height]}\n"
 
     #variable dec
