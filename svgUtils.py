@@ -52,7 +52,7 @@ def writeGUIFile(guiElementPositions):
 
 
     #imports
-    outString += "#include <map>;\n#include <array>;\n#include <string>;\n\n"
+    outString += "#include <map>\n#include <array>\n#include <string>\n\n"
 
     #comments
     outString += "//  VAR_NAME should be useable everywhere (keep your naming consistent)\n"
